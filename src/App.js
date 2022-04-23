@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 import HourlyForecast from "./components/HourlyForecast/HourlyForecast";
-import ThingsToCarry from "./components/ThingsToCarry";
+import ThingsToCarry from "./components/ThingsToCarry/ThingsToCarry";
 import SearchBar from "./components/SearchBar/SearchBar";
 import { geolocation } from "./api/geolocation";
 import logo from "./mlh-prep.png";

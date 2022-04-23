@@ -27,7 +27,7 @@ const LineChart = ({ currentUnit, results, showHours }) => {
       {
         label: "Temperature",
         data: [...tempratures],
-        backgroundColor: "rgb(15, 144, 254, .3)",
+        backgroundColor: "rgba(190, 234, 240, 0.35)",
         borderColor: "#1e59ac",
         fill: true,
       },

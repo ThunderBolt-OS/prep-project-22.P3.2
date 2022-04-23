@@ -1,14 +1,19 @@
 .container {
   width: 55%;
   height: min-content;
-  background-color: #fff;
-  border-radius: 8px;
+  /* background-color: #fff; */
+  /* border-radius: 8px; */
   padding: 10px;
   padding-top: 0;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  backdrop-filter: blur(14px) saturate(100%);
+  -webkit-backdrop-filter: blur(3px) saturate(100%);
+  background-color: rgba(215 207 229 / 35%);
+  border-radius: 12px;
+  border: 1px solid rgba(108, 77, 121, 0.582);
 }
 
 .container h3 {
@@ -51,10 +56,15 @@
 .card {
   height: 140px;
   width: 100px;
-  background-color: #0f90fe;
+  /* background-color: #fe1f0f; */
   /* background-color: #868686; */
   border-radius: 10px;
   margin-right: 10px;
+  backdrop-filter: blur(14px) saturate(100%);
+  -webkit-backdrop-filter: blur(3px) saturate(100%);
+  background-color: rgba(224, 12, 243, 0.178);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
 .card h2 {
@@ -75,15 +85,18 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 25px;
+  /* border-color: #00ffbf; */
+  border-color: #bf3e3e;
 }
 .inputContainer select {
   background-color: transparent;
   border: none;
-  color: #1e59ac;
+  color: #00ffbf;
   border: 2px solid rgb(131, 156, 192, 0.3);
   border-radius: 4px;
   font-size: 16px;
   text-align: center;
+  font-weight: bolder;
 }
 .inputContainer select:nth-child(2) {
   margin-left: 10px;

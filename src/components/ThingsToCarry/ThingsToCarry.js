@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
-import { getImagesOfThingsToCarry } from "../utils/thingsToCarry";
+import { getImagesOfThingsToCarry } from "../../utils/thingsToCarry";
 import "react-multi-carousel/lib/styles.css";
-import "./styles/ThingsToCarry.css";
+import "./style.css";
 
 const ThingsToCarry = ({ weatherType }) => {
   const imagesOfThingsToCarry = getImagesOfThingsToCarry(weatherType);

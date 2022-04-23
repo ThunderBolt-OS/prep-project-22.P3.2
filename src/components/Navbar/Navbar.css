@@ -3,8 +3,9 @@ a {
   cursor: pointer;
 }
 .navCustomLogo {
-  color: #fff;
+  color: rgb(8, 36, 73);
   font-size: 28px;
+  font-weight: 350;
 }
 
 .navCustomLogo:hover {
@@ -16,7 +17,10 @@ a {
   align-items: end;
   padding: 10px 30px 10px 20px;
   justify-content: space-between;
-  background-color: #b6b6c4;
+  /* background-color: #b6b6c4; */
+  backdrop-filter: blur(14px) saturate(100%);
+  background-color: rgb(215 207 229 / 35%);
+  border: 1.6px solid rgba(209, 213, 219, 0.3);
 }
 
 .navCustom-content {
@@ -70,7 +74,8 @@ a {
   justify-content: flex-end;
   margin: 0 6px;
   padding: 0 6px;
-  color: white;
+  color: rgb(40, 2, 65);
+  font-weight: 400;
   transition: all 0.2s ease;
   border-bottom: 2px solid transparent;
 }
